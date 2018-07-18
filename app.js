@@ -15,7 +15,6 @@ console.log('computerChoice: ', computerChoice)
 var rockPaperScissors = function(playerChoice, computerChoice) {
 
 
-    
     if(playerChoice == 0){
         if(computerChoice == 0){
             var result = 'tie';
