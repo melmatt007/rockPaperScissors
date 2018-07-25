@@ -60,6 +60,7 @@ var rockPaperScissors = function(player, computer) {
 
 
 var paragraph = document.querySelector('p');
+var scoreval = document.querySelector('p1')
 
 var assignClick = function(tag,pos) {
     //assign a click listener
@@ -72,7 +73,7 @@ var assignClick = function(tag,pos) {
         //determine winner
         paragraph.innerText += '\n' + rockPaperScissors(playerChoice, computerChoice.store);
         //display winner and score        
-        paragraph.innerText += '\n' + 'SCORE: ' + score;
+        scoreval.innerText = '\n' + 'SCORE: ' + score;
 
         console.log('wins: ', win);
         console.log('loss: ', loss);

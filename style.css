@@ -23,6 +23,11 @@ img:hover {
     transition: all 1s;
 }
 
+p1 {
+    color: darkblue;
+    font-size: 150%;
+}
+
 .container {
     position: absolute;
     top: 350px;
